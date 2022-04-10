@@ -1,0 +1,19 @@
+name: Mirror
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  Mirror:
+    env:
+      TOKEN: ${{ secrets.PAT }}
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Mirror
+      run: |
+        python mirror
+        bash run.sh
+
