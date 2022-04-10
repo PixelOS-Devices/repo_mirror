@@ -1,4 +1,6 @@
 from repoList import repos
+import os
+
 PAT = os.environ.get("TOKEN")
 
 file = open("run.sh", "w+")
