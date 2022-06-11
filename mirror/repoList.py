@@ -7,6 +7,7 @@ repos = [
     ["https://github.com/PainKiller3/vendor_xiaomi", "vendor_xiaomi_beryllium_sdm845"],
     ["https://github.com/PainKiller3/kernel_xiaomi_sdm845", "kernel_xiaomi_sdm845"],
     ["https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_mojito", "vendor_xiaomi_mojito-PE"],
-    ["https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_sm6150-common", "vendor_xiaomi_sm6150-common-PE"]
-    ["https://gitlab.com/RayapKun/vendor_xiaomi_juice", "vendor_xiaomi_juice"]
+    ["https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_sm6150-common", "vendor_xiaomi_sm6150-common-PE"],
+    ["https://gitlab.com/RayapKun/vendor_xiaomi_juice", "vendor_xiaomi_juice"],
+    ["https://github.com/PixelOS-Devices/vendor_xiaomi_lisa", "vendor_xiaomi_lisa"]
 ]
