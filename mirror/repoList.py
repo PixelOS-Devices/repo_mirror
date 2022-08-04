@@ -12,4 +12,5 @@ repos = [
     ["https://github.com/PixelOS-Devices/vendor_xiaomi_lisa", "vendor_xiaomi_lisa"],
     ["https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi-firmware.git", "prebuilt_vendor_xiaomi-firmware"],
     ["https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_mojito-vendor.git", "prebuilt_vendor_xiaomi_mojito-vendor"],
+    ["https://github.com/Neutron-Toolchains/neutron-clang", "prebuilts_clang_host_linux-x86_clang-neutron"],
 ]
